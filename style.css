@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F0FFF0;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.menubar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 24px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.menubar ul li a:hover {
+    color: red;
+}
+
+.menuBar {
+    background: #21B573;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menuBar:hover {
+    background: #000;
+}
+
+.header-comtent {
+    background: #F0FFF0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-comtent .header-text h3 {
+    color: #FD511A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.header-comtent .header-text h1 {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-comtent .header-text span {
+    color: #21B573;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header-comtent .header-text p {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.headerbtn {
+    background: #21B573;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.headerbtn:hover {
+    background: #000;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.about-content img {
+    width: 100px;
+}
+
+.about-content h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.about-content p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.online-course {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.outlineBox {
+    width: 800px;
+    height: 900px;
+    background: #fff;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+.outlineBox h2 {
+    padding-left: 20px;
+    font-family: Poppins;=
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.outlineBox h5 {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+}
+
+
+.outlineBtn {
+    position: relative;
+    background: #21B573;
+    color: #fff;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: left;
+    right: 40%;
+    top: 60px;
+}
+
+
+.outImg Img {
+    width: 24px;
+}
+
+.outImg img {
+    width: 24px;
+}
+
+
+.outImg {
+    padding-top: 100px;
+    text-align: left;
+    display: flex;
+}
+
+.outImg h4 {
+    padding-left: 10px;
+}
+
+
+.outline-two {   
+    float: left;
+}
